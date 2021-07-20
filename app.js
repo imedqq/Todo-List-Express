@@ -157,7 +157,7 @@ app.listen(port, function() {
   console.log("Server started on port: " + port);
 });
 
-// ISSUE: ctrl+c doesnt stop running express server on hyperjs
+// ISSUE: ctrl+c doesnt stop running express server on hyperjs every time
 // https://stackoverflow.com/questions/44788982/node-js-ctrl-c-doesnt-stop-server-after-starting-server-with-npm-start
 process.on('SIGINT', function() {
   console.log( "\nGracefully shutting down from SIGINT (Ctrl-C)" );
