@@ -1,8 +1,9 @@
 # Todolist-v2
 
-NodeJS Express
+Create notes by filling form and clicking plus button, delete notes by clicking on checkbox, create and share new persistent todolists by changing URL path ex: https://evening-oasis-36573.herokuapp.com/list1 
 
-Mongoose MongoDB cloud
+
+Stack: NodeJS Express Mongoose MongoDB cloud
 
 Deployed on Heroku at https://evening-oasis-36573.herokuapp.com/
 
